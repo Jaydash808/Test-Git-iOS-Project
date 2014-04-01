@@ -21,6 +21,7 @@
 		38949B3618EB4D9B00885A16 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38949B1818EB4D9900885A16 /* UIKit.framework */; };
 		38949B3E18EB4D9B00885A16 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 38949B3C18EB4D9B00885A16 /* InfoPlist.strings */; };
 		38949B4018EB4D9C00885A16 /* GitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38949B3F18EB4D9C00885A16 /* GitTestTests.m */; };
+		38949B4B18EB540E00885A16 /* JKMBFdog.m in Sources */ = {isa = PBXBuildFile; fileRef = 38949B4A18EB540E00885A16 /* JKMBFdog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		38949B3B18EB4D9B00885A16 /* GitTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitTestTests-Info.plist"; sourceTree = "<group>"; };
 		38949B3D18EB4D9B00885A16 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		38949B3F18EB4D9C00885A16 /* GitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitTestTests.m; sourceTree = "<group>"; };
+		38949B4918EB540E00885A16 /* JKMBFdog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKMBFdog.h; sourceTree = "<group>"; };
+		38949B4A18EB540E00885A16 /* JKMBFdog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKMBFdog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				38949B2618EB4D9B00885A16 /* Main.storyboard */,
 				38949B2918EB4D9B00885A16 /* JKViewController.h */,
 				38949B2A18EB4D9B00885A16 /* JKViewController.m */,
+				38949B4918EB540E00885A16 /* JKMBFdog.h */,
+				38949B4A18EB540E00885A16 /* JKMBFdog.m */,
 				38949B2C18EB4D9B00885A16 /* Images.xcassets */,
 				38949B1B18EB4D9900885A16 /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				38949B2118EB4D9900885A16 /* main.m in Sources */,
+				38949B4B18EB540E00885A16 /* JKMBFdog.m in Sources */,
 				38949B2B18EB4D9B00885A16 /* JKViewController.m in Sources */,
 				38949B2518EB4D9A00885A16 /* JKAppDelegate.m in Sources */,
 			);
